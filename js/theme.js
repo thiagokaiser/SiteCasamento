@@ -88,7 +88,7 @@ function BannerVideoSlider () {
       },
       responsiveLevels:[2220,1183,975,751],
                 gridwidth:[1170,970,770,350],
-                gridheight:[850,850,850,700],
+                gridheight:[500,500,500,400],
                 shadow:0,
                 spinner:"off",
                 autoHeight:"off",
