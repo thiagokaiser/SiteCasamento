@@ -59,6 +59,8 @@
 @import url('../vendor/hover.css');
 /*----calendar css--------*/
 @import url('../vendor/monthly-master/css/monthly.css');
+/*----fancybox css--------*/
+@import url('../vendor/fancy-box/jquery.fancybox.css');
 
 
 /*** 
@@ -300,7 +302,7 @@ animation-delay: .8s;
   z-index: 999;
   padding-top: 20px;
 }
-.theme-main-menu .navbar-nav>li>a {
+.theme-main-menu .navbar-nav>li>a {  
   text-transform: uppercase;
   color:#fff;
   font-weight: 700;
@@ -1663,7 +1665,7 @@ Cerimonia
 }
 #cerimonia-section .contact-address-content #map {
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 #cerimonia-section .send-message {
   padding: 0 15px;
@@ -1866,7 +1868,7 @@ Recepcao
 }
 #recepcao-section .contact-address-content #maprecep {
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 #recepcao-section .send-message {
   padding: 0 15px;
