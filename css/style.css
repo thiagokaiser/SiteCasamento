@@ -41,6 +41,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Rochester');
+@import url('https://fonts.googleapis.com/css?family=Charm');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 /*----bootstrap css ----- */
@@ -173,7 +174,7 @@ animation-delay: .8s;
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'Rochester', cursive;  
+  font-family: 'Charm', cursive;  
   font-weight: normal;
   color:#6f6f6f;
   font-size: 20px;
