@@ -177,6 +177,10 @@ animation-delay: .8s;
   font-family: 'Charm', cursive;  
   font-weight: normal;
   color:#6f6f6f;
+  background: url(../images/home/fundo.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 70px;
   font-size: 20px;
   position: relative;
  }
