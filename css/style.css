@@ -239,6 +239,9 @@ animation-delay: .8s;
   text-align: center;
   margin: 95px 0 0 0;
 }
+.theme-title table {
+  margin: 0 auto;
+}
 .theme-title h2 {
   position: relative;
   font-family: 'Great Vibes', cursive;
