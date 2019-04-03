@@ -272,7 +272,7 @@ function stickyHeader () {
         scroll = $(window).scrollTop();
 
     sticky.addClass('fixed');
-    /*if (scroll >= 0) sticky.addClass('fixed');
+    /*if (scroll >= 100) sticky.addClass('fixed');
     else sticky.removeClass('fixed');*/
     
   };
