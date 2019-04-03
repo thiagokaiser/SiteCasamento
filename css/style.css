@@ -41,6 +41,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Rochester');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/bootstrap.css');
@@ -239,7 +240,7 @@ animation-delay: .8s;
 }
 .theme-title h2 {
   position: relative;
-  /*font-family: 'Tangerine', cursive;*/
+  font-family: 'Great Vibes', cursive;
 }
 .theme-title h2:before {
   content: '';
