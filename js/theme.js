@@ -265,18 +265,18 @@ function closeSuccessAlert () {
   }
 }
 
-
 // Sticky header
 function stickyHeader () {
   if ($('.theme-main-header').length) {
     var sticky = $('.theme-main-header'),
         scroll = $(window).scrollTop();
 
-    if (scroll >= 100) sticky.addClass('fixed');
+    if (scroll >= 0) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
     
   };
 }
+
 
 // Calendar
 function cladendar () {

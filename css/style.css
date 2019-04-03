@@ -40,6 +40,8 @@
 **/
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/bootstrap.css');
 /*----font awesome -------*/
@@ -170,24 +172,24 @@ animation-delay: .8s;
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'Raleway', sans-serif;  
+  font-family: 'Rochester', cursive;  
   font-weight: normal;
   color:#6f6f6f;
-  font-size: 14px;
+  font-size: 20px;
   position: relative;
  }
 .main-page-wrapper {
   overflow-x:hidden;
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- h1,h2,h3,h4,h5,h6 {color:#292929; text-transform: uppercase;font-weight: 700;}
+ h1,h2,h3,h4,h5,h6 {color:#292929; font-weight: 700;}
  h1 {font-size: 48px;}
  h2 {font-size: 36px;}
  h3 {font-size: 28px;}
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
  h6 {font-size: 18px;}
- p {line-height: 26px;}
+ p {line-height: 25px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
@@ -237,6 +239,7 @@ animation-delay: .8s;
 }
 .theme-title h2 {
   position: relative;
+  /*font-family: 'Tangerine', cursive;*/
 }
 .theme-title h2:before {
   content: '';
@@ -248,9 +251,10 @@ animation-delay: .8s;
   margin-left: -12px;
 }
 .theme-title p {
-  font-size: 16px;
+  text-indent: 40px;
+  font-size: 20px;
   width: 75%;
-  margin: 60px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
@@ -303,7 +307,7 @@ animation-delay: .8s;
   padding-top: 20px;
 }
 .theme-main-menu .navbar-nav>li>a {  
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color:#fff;
   font-weight: 700;
   background: transparent;
@@ -1644,8 +1648,9 @@ Cerimonia
   padding-left: 85px;
   margin-bottom: 50px;
 }
-#cerimonia-section .contact-address-content .left-side ul li h6 {
-  font-size: 14px;
+#cerimonia-section .contact-address-content .left-side p {
+  text-indent: 40px;
+  font-size: 25px;
   margin-bottom: 8px;
 }
 #cerimonia-section .contact-address-content .left-side ul li .icon {
@@ -1851,6 +1856,12 @@ Recepcao
   font-size: 14px;
   margin-bottom: 8px;
 }
+#recepcao-section .contact-address-content .left-side p {
+  text-indent: 40px;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
 #recepcao-section .contact-address-content .left-side ul li .icon {
   width: 60px;
   height: 60px;
