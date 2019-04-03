@@ -271,8 +271,9 @@ function stickyHeader () {
     var sticky = $('.theme-main-header'),
         scroll = $(window).scrollTop();
 
-    if (scroll >= 0) sticky.addClass('fixed');
-    else sticky.removeClass('fixed');
+    sticky.addClass('fixed');
+    /*if (scroll >= 0) sticky.addClass('fixed');
+    else sticky.removeClass('fixed');*/
     
   };
 }
@@ -328,6 +329,7 @@ jQuery(window).on('scroll', function () {
 // Window load function
 jQuery(window).on('load', function () {
    (function ($) {
+      stickyHeader ();
       prealoader ()
   })(jQuery);
  });
