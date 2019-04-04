@@ -189,7 +189,7 @@ animation-delay: .8s;
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
  h1,h2,h3,h4,h5,h6 {color:#292929; font-weight: 700;}
  h1 {font-size: 48px;}
- h2 {font-size: 36px;}
+ h2 {font-size: 50px;}
  h3 {font-size: 28px;}
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
@@ -241,12 +241,6 @@ animation-delay: .8s;
 .theme-title {
   text-align: center;
   margin: 20px 0 0 0;
-}
-.theme-title table {
-  margin: 0 auto;  
-}
-.theme-title table tr td h2 {
-  margin: 20px;  
 }
 .theme-title h2 {
   position: relative;
@@ -450,8 +444,16 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
+ #casar-section .container, #historia-section .container, #recepcao-section .container, #cerimonia-section .container,
+ #presentes-section .container, #localizacao-section .container, #contact-section .container, #project-section .container   {    
+  background: url(../images/home/flor.png) no-repeat;
+  background-size: 252px 200px;
+  margin: auto;
+  background-color: #fff;
+ } 
 #casar-section .single-about-content {
-  text-align: center;  
+  text-align: justify;  
+  font-size: 22px;
   margin: 0 20px 0 20px;  
 }
 #casar-section .icon {
@@ -523,7 +525,14 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
-
+/*
+ #historia-section .container {    
+  background: url(../images/home/flor.png) no-repeat;
+  background-size: 252px 200px;
+  margin: auto;
+  background-color: #fff;
+ } 
+*/
 #historia-section .single-about-content {
   text-align: left;    
   margin: 0 20px 0 20px;  
@@ -1733,3 +1742,4 @@ Recepcao
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
+
