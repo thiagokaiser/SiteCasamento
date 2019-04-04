@@ -444,7 +444,7 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
-#historia-section .container, #recepcao-section .container, #localizacao-section .container {
+#historia-section .container, #project-section .container, #presentes-section .container {
   background: url(../images/home/flor2.png) no-repeat;
   background-size: 252px 200px;
   background-position: right top;
@@ -453,7 +453,8 @@ animation-delay: .8s;
  } 
 
 
- #casar-section .container,#cerimonia-section .container, #presentes-section .container, #contact-section .container, #project-section .container   {    
+ #casar-section .container,#cerimonia-section .container, #contact-section .container,
+ #localizacao-section .container, #recepcao-section .container   {    
   background: url(../images/home/flor.png) no-repeat;
   background-size: 252px 200px;  
   margin: auto;
