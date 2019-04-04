@@ -444,10 +444,18 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
- #casar-section .container, #historia-section .container, #recepcao-section .container, #cerimonia-section .container,
- #presentes-section .container, #localizacao-section .container, #contact-section .container, #project-section .container   {    
-  background: url(../images/home/flor.png) no-repeat;
+#historia-section .container, #recepcao-section .container, #localizacao-section .container {
+  background: url(../images/home/flor2.png) no-repeat;
   background-size: 252px 200px;
+  background-position: right top;
+  margin: auto;
+  background-color: #fff;
+ } 
+
+
+ #casar-section .container,#cerimonia-section .container, #presentes-section .container, #contact-section .container, #project-section .container   {    
+  background: url(../images/home/flor.png) no-repeat;
+  background-size: 252px 200px;  
   margin: auto;
   background-color: #fff;
  } 
