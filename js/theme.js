@@ -302,18 +302,33 @@ function subMenuExpend () {
 // DOM ready function
 jQuery(document).on('ready', function() {
 	(function ($) {
-	   removePlaceholder ();
-     scrollToTop ();
-     BannerVideoSlider ();
-     onePageFixedNav();
-     mixitupGallery ();
-     bootstrapProgress ();
-     clientSlider ();
-     partnersLogo ();
-     contactFormValidation ();
-     closeSuccessAlert ();
-     cladendar ();
-     subMenuExpend ()
+	  removePlaceholder ();
+    scrollToTop ();
+    BannerVideoSlider ();
+    onePageFixedNav();
+    mixitupGallery ();
+    bootstrapProgress ();
+    clientSlider ();
+    partnersLogo ();
+    contactFormValidation ();
+    closeSuccessAlert ();
+    cladendar ();
+    subMenuExpend ();
+    $("a.imgcerimonia").fancybox({
+      margin : [85, 20, 20, 20]
+    });
+    $("a.imgrecepcao").fancybox({
+      margin : [85, 20, 20, 20]
+    });
+    $("a.imgfotos").fancybox({
+      margin : [85, 20, 20, 20]
+    });
+    $(".countdown").countdown("2019/09/14", function(event) {
+      $(this).text(
+        event.strftime('Faltam %D dias %H:%M:%S')
+        //event.strftime('%D dias %H horas %M minutos %S segundos')
+      );
+    });
   })(jQuery);
 });
 

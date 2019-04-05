@@ -177,14 +177,14 @@ animation-delay: .8s;
   font-family: 'Charm', cursive;  
   font-weight: normal;
   color:#6f6f6f;
-  background: url(../images/home/fundo4.jpg) repeat;
+  background: url(../images/home/fundo3.jpg) repeat;
   background-size: auto;
   background-attachment: fixed;  
   font-size: 20px;
-  position: relative;
+  position: relative;  
  }
 .main-page-wrapper {
-  overflow-x:hidden;
+  overflow-x:hidden;  
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
  h1,h2,h3,h4,h5,h6 {color:#292929; font-weight: 700;}
@@ -244,6 +244,9 @@ animation-delay: .8s;
 }
 .theme-title h2 {
   position: relative;
+  font-family: 'Great Vibes', cursive;
+}
+.tp-caption h1, .tp-caption h6 {  
   font-family: 'Great Vibes', cursive;
 }
 /*
@@ -1751,4 +1754,3 @@ Recepcao
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
-
