@@ -173,6 +173,11 @@ animation-delay: .8s;
        url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
+ @font-face {
+  font-family: 'Brock Script';
+  src: url('../fonts/brock-script/brockscript.ttf');
+}
+
  body {
   font-family: 'Charm', cursive;  
   font-weight: normal;
@@ -188,12 +193,12 @@ animation-delay: .8s;
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
  h1,h2,h3,h4,h5,h6 {color:#292929; font-weight: 700;}
- h1 {font-size: 48px;}
+ h1 {font-size: 60px;}
  h2 {font-size: 50px;}
  h3 {font-size: 28px;}
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
- h6 {font-size: 18px;}
+ h6 {font-size: 25px;}
  p {line-height: 25px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
@@ -244,10 +249,10 @@ animation-delay: .8s;
 }
 .theme-title h2 {
   position: relative;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Brock Script', cursive;
 }
 .tp-caption h1, .tp-caption h6 {  
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Brock Script', cursive;
 }
 /*
 .theme-title h2:before {
