@@ -199,7 +199,7 @@ animation-delay: .8s;
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
  h6 {font-size: 25px;}
- p {line-height: 25px;}
+ p {line-height: 1.2;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
@@ -245,7 +245,7 @@ animation-delay: .8s;
 }
 .theme-title {
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 80px 0 0 0;
 }
 .theme-title h2 {
   position: relative;
@@ -472,10 +472,21 @@ animation-delay: .8s;
   background-color: #fff;
  } 
 #casar-section .single-about-content {
-  text-align: justify;  
-  font-size: 22px;
-  margin: 0 20px 0 20px;  
+  text-align: justify;    
+  font-size: 28px;
+  margin: 50px 20px 0 20px;    
 }
+#casar-section .theme-title {  
+  margin: 20px 0 0 0;  
+}
+#casar-section h2 {  
+  font-size: 60px;  
+}
+#casar-section .single-about-content p{
+  line-height: 1.2;
+  text-indent: 40px;
+}
+
 #casar-section .icon {
   width: 130px;
   height: 130px;
@@ -554,8 +565,12 @@ animation-delay: .8s;
  } 
 */
 #historia-section .single-about-content {
-  text-align: left;    
-  margin: 0 20px 0 20px;  
+  font-size: 25px;
+  text-align: justify;    
+  margin: 40px 20px 0 20px;    
+}
+#historia-section .single-about-content p {
+  text-indent: 40px;
 }
 #historia-section .icon {
   width: 130px;
@@ -590,7 +605,7 @@ animation-delay: .8s;
 
  ***/
 #project-section .project-menu ul {
-  text-align: center;
+  text-align: justify;
   margin-top: 34px;
   margin-bottom: 60px;
 }
@@ -1360,8 +1375,8 @@ footer p {
 Cerimonia
 ***/
 
-#cerimonia-section .contact-address-content h2 {
-  margin: 95px 0 35px 0;
+#cerimonia-section .contact-address-content {
+  margin: 40px 20px 0 20px;    
 }
 #cerimonia-section .contact-address-content .left-side ul {
   margin-top: 70px;
@@ -1371,10 +1386,11 @@ Cerimonia
   padding-left: 85px;
   margin-bottom: 50px;
 }
-#cerimonia-section .contact-address-content .left-side p {
-  text-indent: 40px;
+#cerimonia-section .contact-address-content .left-side p {  
   font-size: 25px;
   margin-bottom: 8px;
+  text-align: justify;
+  text-indent: 40px;
 }
 #cerimonia-section .contact-address-content .left-side ul li .icon {
   width: 60px;
@@ -1564,9 +1580,10 @@ Cerimonia
 Recepcao
 ***/
 
-#recepcao-section .contact-address-content h2 {
-  margin: 95px 0 35px 0;
+#recepcao-section .contact-address-content {
+  margin: 40px 20px 0 20px;    
 }
+
 #recepcao-section .contact-address-content .left-side ul {
   margin-top: 70px;
 }
@@ -1579,10 +1596,11 @@ Recepcao
   font-size: 14px;
   margin-bottom: 8px;
 }
-#recepcao-section .contact-address-content .left-side p {
-  text-indent: 40px;
+#recepcao-section .contact-address-content .left-side p {  
   font-size: 25px;
   margin-bottom: 8px;
+  text-align: justify;
+  text-indent: 40px;
 }
 
 #recepcao-section .contact-address-content .left-side ul li .icon {
