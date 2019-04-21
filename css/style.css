@@ -194,7 +194,7 @@ animation-delay: .8s;
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
  h1,h2,h3,h4,h5,h6 {color:#292929; font-weight: 700;}
  h1 {font-size: 60px;}
- h2 {font-size: 50px;}
+ h2 {font-size: 40px;}
  h3 {font-size: 28px;}
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
@@ -480,7 +480,7 @@ animation-delay: .8s;
   margin: 20px 0 0 0;  
 }
 #casar-section h2 {  
-  font-size: 50px;  
+  font-size: 40px;  
 }
 #casar-section .single-about-content p{
   line-height: 1.2;
@@ -1376,7 +1376,7 @@ Cerimonia
 ***/
 
 #cerimonia-section .contact-address-content {
-  margin: 40px 20px 0 20px;    
+  margin: 40px 0 0 0;    
 }
 #cerimonia-section .contact-address-content .left-side ul {
   margin-top: 70px;
@@ -1388,7 +1388,7 @@ Cerimonia
 }
 #cerimonia-section .contact-address-content .left-side p {  
   font-size: 22px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   text-align: justify;
   text-indent: 40px;
 }
@@ -1581,7 +1581,7 @@ Recepcao
 ***/
 
 #recepcao-section .contact-address-content {
-  margin: 40px 20px 0 20px;    
+  margin: 40px 0 0 0;    
 }
 
 #recepcao-section .contact-address-content .left-side ul {
@@ -1598,7 +1598,7 @@ Recepcao
 }
 #recepcao-section .contact-address-content .left-side p {  
   font-size: 22px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   text-align: justify;
   text-indent: 40px;
 }
