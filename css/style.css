@@ -473,14 +473,14 @@ animation-delay: .8s;
  } 
 #casar-section .single-about-content {
   text-align: justify;    
-  font-size: 28px;
+  font-size: 22px;
   margin: 50px 20px 0 20px;    
 }
 #casar-section .theme-title {  
   margin: 20px 0 0 0;  
 }
 #casar-section h2 {  
-  font-size: 60px;  
+  font-size: 50px;  
 }
 #casar-section .single-about-content p{
   line-height: 1.2;
@@ -565,7 +565,7 @@ animation-delay: .8s;
  } 
 */
 #historia-section .single-about-content {
-  font-size: 25px;
+  font-size: 22px;
   text-align: justify;    
   margin: 40px 20px 0 20px;    
 }
@@ -1387,7 +1387,7 @@ Cerimonia
   margin-bottom: 50px;
 }
 #cerimonia-section .contact-address-content .left-side p {  
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 8px;
   text-align: justify;
   text-indent: 40px;
@@ -1597,7 +1597,7 @@ Recepcao
   margin-bottom: 8px;
 }
 #recepcao-section .contact-address-content .left-side p {  
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 8px;
   text-align: justify;
   text-indent: 40px;
