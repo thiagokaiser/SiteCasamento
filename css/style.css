@@ -268,8 +268,7 @@ animation-delay: .8s;
   margin-left: -12px;
 }*/
 .theme-title p {
-  text-indent: 40px;
-  font-size: 20px;
+  text-indent: 40px;  
   width: 75%;
   margin: 10px auto 0 auto;
 }
@@ -478,13 +477,29 @@ animation-delay: .8s;
 /*** 
 
 ====================================================================
+  FONT SIZE
+====================================================================
+
+ ***/
+
+#casar-section .single-about-content, #historia-section .single-about-content,
+#cerimonia-section .contact-address-content .left-side p,
+#recepcao-section .contact-address-content .left-side p,  
+.theme-title p, #presentes-section .single-about-content {
+  font-size: 22px;
+}
+
+
+
+/*** 
+
+====================================================================
   Casar section
 ====================================================================
 
  ***/
 #casar-section .single-about-content {
-  text-align: justify;    
-  font-size: 22px;
+  text-align: justify;      
   margin: 50px 20px 0 20px;    
 }
 #casar-section .theme-title {  
@@ -493,8 +508,7 @@ animation-delay: .8s;
 #casar-section h2 {  
   font-size: 40px;  
 }
-#casar-section .single-about-content p{
-  line-height: 1.2;
+#casar-section .single-about-content p{  
   text-indent: 40px;
 }
 
@@ -575,8 +589,7 @@ animation-delay: .8s;
   background-color: #fff;
  } 
 */
-#historia-section .single-about-content {
-  font-size: 22px;
+#historia-section .single-about-content {  
   text-align: justify;    
   margin: 40px 20px 0 20px;    
 }
@@ -968,8 +981,7 @@ Cerimonia
   padding-left: 85px;
   margin-bottom: 50px;
 }
-#cerimonia-section .contact-address-content .left-side p {  
-  font-size: 22px;
+#cerimonia-section .contact-address-content .left-side p {    
   margin-bottom: 30px;
   text-align: justify;
   text-indent: 40px;
@@ -1178,8 +1190,7 @@ Recepcao
   font-size: 14px;
   margin-bottom: 8px;
 }
-#recepcao-section .contact-address-content .left-side p {  
-  font-size: 22px;
+#recepcao-section .contact-address-content .left-side p {    
   margin-bottom: 30px;
   text-align: justify;
   text-indent: 40px;
