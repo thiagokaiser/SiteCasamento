@@ -84,6 +84,7 @@
   }
   #pricing-section .single-price-table {margin-bottom: 50px;}
   #fotos-section .project-gallery .grid-item {width: 50%;}
+  #fotos-section .project-gallery .grid-item img {width: 90%;} 
   #team-section .team-member-wrapper .float-left,
   #team-section .team-member-wrapper .float-left img,
   #our-client .client-slider p {width: 100%;}
@@ -120,8 +121,8 @@
   #cerimonia-section .project-gallery .grid-item img {width: 100%;}  
   #recepcao-section .project-gallery .grid-item,
   #recepcao-section .project-gallery .grid-item img {width: 100%;}  
-  #fotos-section .project-gallery .grid-item,
-  #fotos-section .project-gallery .grid-item img {width: 100%;}  
+  #fotos-section .project-gallery .grid-item {width: 50%;} 
+  #fotos-section .project-gallery .grid-item img {width: 90%;} 
   .banner h1 {font-size: 35px;}
   .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
 }
