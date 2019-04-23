@@ -52,7 +52,7 @@
   .theme-main-menu .navbar-nav>li>a {padding: 9px 8px;}
   .theme-main-header.fixed .logo {display: none;}
   .theme-main-header.fixed .theme-main-menu.navbar {margin-top: 0;}
-  #project-section .project-gallery .grid-item,
+  #fotos-section .project-gallery .grid-item,
   #team-section .team-member-wrapper .float-left {width: 50%;}
   #our-client .client-slider p {width: 90%;}
   .inner-page-banner .opacity {padding-top: 210px;}
@@ -83,12 +83,12 @@
             transition: none;
   }
   #pricing-section .single-price-table {margin-bottom: 50px;}
-  #project-section .project-gallery .grid-item {width: 50%;}
+  #fotos-section .project-gallery .grid-item {width: 50%;}
   #team-section .team-member-wrapper .float-left,
   #team-section .team-member-wrapper .float-left img,
   #our-client .client-slider p {width: 100%;}
   #team-section .team-member-wrapper .float-left,
-  #project-section .project-gallery .grid-item,
+  #fotos-section .project-gallery .grid-item,
   #historia-section .row [class*="col-"],#skill-section [class*="col-"],
   #pricing-section [class*="col-"],#contact-section .send-message,
   #contact-section .contact-address-content [class*="col-"],
