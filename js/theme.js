@@ -347,4 +347,8 @@ jQuery(window).on('load', function () {
       stickyHeader ();
       prealoader ()
   })(jQuery);
- });
+});
+
+$('#navbar-collapse-1 li a').click(function() {
+   $('.navbar-collapse').collapse('hide');   
+});
