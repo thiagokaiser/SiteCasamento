@@ -120,6 +120,9 @@
   #recepcao-section .project-gallery .grid-item,
   #recepcao-section .project-gallery .grid-item img {width: 100%;}
   #recepcao-section .project-menu ul li {font-size: 14px;margin: 15px 2px 0;border-bottom: 1px solid #fff;}
+  #fotos-section .project-gallery .grid-item,
+  #fotos-section .project-gallery .grid-item img {width: 100%;}
+  #fotos-section .project-menu ul li {font-size: 14px;margin: 15px 2px 0;border-bottom: 1px solid #fff;}
   #team-section .team-member-wrapper .single-team-member .img .opacity span {margin: 5px 0;}
   #team-section .team-member-wrapper .single-team-member .member-name ul li a {width: 40px;line-height: 38px;}
   .banner h1 {font-size: 35px;}
