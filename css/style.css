@@ -544,9 +544,27 @@ animation-delay: .8s;
 
  ***/
 #presentes-section .single-about-content {
-  text-align: center;
-  margin-top: 55px;
-  margin-bottom: 1px;
+  text-align: justify;
+  margin: 50px 20px 0 20px;   
+}
+#presentes-section .single-about-content p{  
+  text-indent: 40px;
+}
+#presentes-section .single-about-content .lista-sites ul li{  
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color:#292929;
+  padding: 0 8px;
+  border-width: 0;
+  border-bottom-width:1px;
+  border-color: transparent;
+  margin: 15px 10px 0 10px;
+  padding-bottom: 10px;
+}
+#presentes-section .single-about-content .lista-ender {
+  margin: 10px 0 10px 0;       
 }
 #presentes-section .icon {
   width: 130px;
