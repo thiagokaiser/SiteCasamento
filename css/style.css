@@ -563,6 +563,7 @@ animation-delay: .8s;
   font-size: 23px;    
 }
 #presentes-section .single-about-content .lista-ender {
+  text-align: center;  
   margin: 10px 0 10px 0;     
   font-size: 16px;    
 }
