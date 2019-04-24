@@ -550,21 +550,20 @@ animation-delay: .8s;
 #presentes-section .single-about-content p{  
   text-indent: 40px;
 }
-#presentes-section .single-about-content .lista-sites ul li{  
-  display: inline-block;
-  cursor: pointer;
-  font-size: 16px;
+#presentes-section .single-about-content .lista-sites {  
+  margin: 15px 0 15px 0;
+}
+#presentes-section .single-about-content .lista-sites ul li{    
+  text-align: center;  
+  cursor: pointer;  
   font-weight: 700;
-  color:#292929;
-  padding: 0 8px;
-  border-width: 0;
-  border-bottom-width:1px;
-  border-color: transparent;
-  margin: 15px 10px 0 10px;
-  padding-bottom: 10px;
+  color:#292929;    
+  padding-bottom: 1px;
+  font-size: 23px;    
 }
 #presentes-section .single-about-content .lista-ender {
-  margin: 10px 0 10px 0;       
+  margin: 10px 0 10px 0;     
+  font-size: 16px;    
 }
 #presentes-section .icon {
   width: 130px;
