@@ -255,6 +255,7 @@ animation-delay: .8s;
   font-family: 'Brock Script', cursive;
 }
 .tp-caption h1{
+  font-size: 45px;
   line-height: 100px;  
 }
 /*

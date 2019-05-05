@@ -124,7 +124,8 @@
   #recepcao-section .project-gallery .grid-item img {width: 100%;}  
   #fotos-section .project-gallery .grid-item {width: 50%;} 
   #fotos-section .project-gallery .grid-item img {width: 95%;} 
-  .banner h1 {font-size: 35px;}
+  .banner h1 {font-size: 27px;}
+  .banner h6 {font-size: 14px;}
   .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
 }
 
