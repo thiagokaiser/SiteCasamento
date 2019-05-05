@@ -117,7 +117,8 @@
 
 @media (max-width: 550px) {
   #casar-section p, #historia-section p, #recepcao-section .contact-address-content .left-side p,
-  #presentes-section p, #cerimonia-section .contact-address-content .left-side p {font-size: 18px;}
+  #presentes-section p, #cerimonia-section .contact-address-content .left-side p, 
+  #localizacao-section p {font-size: 18px;}
   #cerimonia-section .project-gallery .grid-item,
   #cerimonia-section .project-gallery .grid-item img {width: 100%;}  
   #recepcao-section .project-gallery .grid-item,

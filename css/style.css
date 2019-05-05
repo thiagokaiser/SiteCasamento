@@ -486,7 +486,7 @@ animation-delay: .8s;
 #casar-section .single-about-content, #historia-section .single-about-content,
 #cerimonia-section .contact-address-content .left-side p,
 #recepcao-section .contact-address-content .left-side p,  
-.theme-title p, #presentes-section .single-about-content {
+.theme-title p, #presentes-section .single-about-content, #localizacao-section .single-about-content{
   font-size: 22px;
 }
 
@@ -537,6 +537,15 @@ animation-delay: .8s;
 #casar-section .single-about-content:hover .icon {
   color:#fff;
 }
+#casar-section .brasao img{
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto;  
+  text-align: center;
+  width:150px;  
+}
+
+
 /*** 
 
 ====================================================================
@@ -649,16 +658,21 @@ animation-delay: .8s;
 
  ***/
 
-#localizacao-section .single-about-content {  
+#localizacao-section .single-about-content {      
   text-align: justify;    
   margin: 40px 20px 0 20px;    
 }
-#localizacao-section .single-about-content p {
+#localizacao-section .single-about-content p {    
   text-indent: 40px;
 }
-#localizacao-section .single-about-content .img {
-  margin: 20px 0 0 0 ;
+#localizacao-section .mapa-loc img{
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+  border: 1px solid #000;    
+  text-align: center;
 }
+
 
 /*** 
 
@@ -799,6 +813,7 @@ animation-delay: .8s;
 .page-middle-banner .opacity h3 {
   color: #fff;
   margin-bottom: 5px;
+  line-height: 1.4;
   font-family: 'Charm', cursive;
 }
 .page-middle-banner .opacity h1 {
