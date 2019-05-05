@@ -457,7 +457,7 @@ animation-delay: .8s;
 
  ***/
 
-#historia-section .container, #fotos-section .container, #presentes-section .container,
+#historia-section .container, #fotos-section .container, #localizacao-section .container, 
 #historia-completa .container,#cerimonia-section .container {
   background: url(../images/home/flor2.png) no-repeat;
   background-size: 252px 200px;
@@ -468,7 +468,7 @@ animation-delay: .8s;
 
 
  #casar-section .container, #contact-section .container,
- #localizacao-section .container, #recepcao-section .container   {    
+ #presentes-section .container, #recepcao-section .container   {    
   background: url(../images/home/flor.png) no-repeat;
   background-size: 252px 200px;  
   margin: auto;
