@@ -255,7 +255,7 @@ animation-delay: .8s;
   font-family: 'Brock Script', cursive;
 }
 .tp-caption h1{
-  line-height: 100px;
+  line-height: 100px;  
 }
 /*
 .theme-title h2:before {
@@ -435,7 +435,7 @@ animation-delay: .8s;
   background: #000;
 }
 .banner h1,.banner h6,.banner .project-button {
-  color:#fff;
+  color:#262626;
 }
 .banner h6 {
   font-weight: 500;
@@ -457,7 +457,7 @@ animation-delay: .8s;
  ***/
 
 #historia-section .container, #fotos-section .container, #presentes-section .container,
-#historia-completa .container {
+#historia-completa .container,#cerimonia-section .container {
   background: url(../images/home/flor2.png) no-repeat;
   background-size: 252px 200px;
   background-position: right top;
@@ -466,7 +466,7 @@ animation-delay: .8s;
  } 
 
 
- #casar-section .container,#cerimonia-section .container, #contact-section .container,
+ #casar-section .container, #contact-section .container,
  #localizacao-section .container, #recepcao-section .container   {    
   background: url(../images/home/flor.png) no-repeat;
   background-size: 252px 200px;  
@@ -643,28 +643,32 @@ animation-delay: .8s;
 /*** 
 
 ====================================================================
+  localizacao section
+====================================================================
+
+ ***/
+
+#localizacao-section .single-about-content {  
+  text-align: justify;    
+  margin: 40px 20px 0 20px;    
+}
+#localizacao-section .single-about-content p {
+  text-indent: 40px;
+}
+#localizacao-section .single-about-content .img {
+  margin: 20px 0 0 0 ;
+}
+
+/*** 
+
+====================================================================
   fotos section
 ====================================================================
 
  ***/
-#fotos-section .project-menu ul {
-  text-align: justify;
-  margin-top: 34px;
-  margin-bottom: 60px;
+#fotos-section .project-gallery{
+  margin-top:40px;
 }
-#fotos-section .project-menu ul li {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  color:#292929;
-  padding: 0 8px;
-  border-width: 0;
-  border-bottom-width:1px;
-  border-color: transparent;
-  margin: 15px 10px 0 10px;
-  padding-bottom: 10px;
-} 
 #fotos-section .project-gallery .grid-item {
   width: 33.33333333333%;
   padding: 0 15px;
