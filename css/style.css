@@ -685,6 +685,11 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
+
+.fancybox-nav span {
+ visibility: visible;
+}
+
 #fotos-section .project-gallery{
   margin-top:40px;
 }
