@@ -562,15 +562,21 @@ animation-delay: .8s;
   text-indent: 40px;
 }
 #presentes-section .single-about-content .lista-sites {  
-  margin: 15px 0 15px 0;
-}
-#presentes-section .single-about-content .lista-sites ul li{    
-  text-align: center;  
-  cursor: pointer;  
-  font-weight: 700;
-  color:#292929;    
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;    
+  /*color:#292929;    */
   padding-bottom: 1px;
   font-size: 23px;    
+}
+#presentes-section .single-about-content .lista-sites a{  
+  font-weight: 700;
+  cursor: pointer;  
+  word-wrap: break-word;
+  /*display: block;*/
+}
+#presentes-section .single-about-content .lista-sites .lista-sites-detail{    
+  font-size: 15px;
 }
 #presentes-section .single-about-content .lista-ender {
   text-align: center;  

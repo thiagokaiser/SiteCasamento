@@ -128,6 +128,7 @@
   .banner h1 {font-size: 27px;}
   .banner h6 {font-size: 14px;}
   .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
+  #presentes-section a{font-size: 14px;}
 }
 
 @media (max-width: 430px) {
