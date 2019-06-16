@@ -684,12 +684,10 @@ animation-delay: .8s;
   fotos section
 ====================================================================
 
- ***/
-
+***/
 .fancybox-nav span {
  visibility: visible;
 }
-
 #fotos-section .project-gallery{
   margin-top:40px;
 }
